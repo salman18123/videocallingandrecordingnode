@@ -68,7 +68,7 @@ myapp.controller('callingcontroller',['$location','$routeParams','$http','$rootS
                 main.portno=response.data.portno
                 console.log(response)
                 console.log(this.portno)
-                peer = new Peer(`${this.userID}`, {host: 'localhost',port:`${this.portno}`, path: '/'});
+                peer = new Peer(`${this.userID}`, {host: 'https://salmansveryownskype.herokuapp.com/',port:`${this.portno}`, path: '/'});
                 console.log(peer)
                 peer.on('call',(call)=>{
                     
