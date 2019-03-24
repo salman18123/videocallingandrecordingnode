@@ -1,0 +1,30 @@
+{
+  "name": "peerupdated",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.16.4",
+    "formidable": "^1.2.1",
+    "mime": "^2.4.0",
+    "mysql2": "^1.6.5",
+    "peer": "^0.2.10",
+    "pg": "^7.8.2",
+    "recordrtc": "file:node_modules/recordrtc",
+    "recordrtc-nodejs": "^1.0.6",
+    "util": "^0.11.1",
+    "videojs": "^1.0.0",
+    "videojs-record": "^3.5.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "engines": {
+    "node": "9",
+    "npm": "5"
+  }
+
+}
